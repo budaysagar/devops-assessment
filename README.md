@@ -16,6 +16,7 @@ requests
 
 # Build and run
 cd python-version
+
 docker build -t my_image .
 
 docker run my_image
@@ -41,6 +42,7 @@ Stage 2: Runs the JAR using OpenJDK 21 on UBI minimal
 # Build and Run
 
 cd java-version
+
 docker build -t my_image .
 
 docker run my_image
