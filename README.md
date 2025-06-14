@@ -17,6 +17,7 @@ requests
 # Build and run
 cd python-version
 docker build -t my_image .
+
 docker run my_image
 
 # Java Version (Bonus Task)
@@ -41,10 +42,12 @@ Stage 2: Runs the JAR using OpenJDK 21 on UBI minimal
 
 cd java-version
 docker build -t my_image .
+
 docker run my_image
 
 # Cloning the repository
 
 git clone https://github.com/budaysagar/devops-assessment.git
+
 cd devops-assessment
 
